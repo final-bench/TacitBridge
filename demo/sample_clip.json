@@ -1,0 +1,9 @@
+{
+  "scene": "A hand picks up a small screwdriver, seats the tip in a screw on a panel, turns it clockwise firmly, then sets the screwdriver down.",
+  "events": [
+    {"action": "grasp", "target": "screwdriver", "grip": "pinch"},
+    {"action": "seat", "target": "screw", "grip": "pinch"},
+    {"action": "turn", "target": "screw", "grip": "pinch", "force": "firm"},
+    {"action": "place", "target": "screwdriver", "grip": "none"}
+  ]
+}
